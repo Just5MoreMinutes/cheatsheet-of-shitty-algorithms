@@ -31,9 +31,9 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
                 print(arr)
 
-# INSERTION SORT
+# SELECTION SORT
 #--------------------------------------------------------------------------------
-def insertion_sort(arr):
+def selection_sort(arr):
     """
     The first index (0) is always considered sorted.
     This means, we first look at the second index (1).
@@ -224,7 +224,7 @@ sep()
 # bubble_sort(sample_list)
 # # sample_list = [4,9,6,3,1,8,0,7,2,5]
 # sep()
-# insertion_sort(sample_list)
+# selection_sort(sample_list)
 # sample_list = [4,9,6,3,1,8,0,7,2,5]
 # sep()
 # merge_sort(sample_list)
